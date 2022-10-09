@@ -27,7 +27,6 @@ header {
 }
 
 .page-container {
-    min-height: 100%;
     display: grid;
     grid-template-areas: 
     ". header header header ."
