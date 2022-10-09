@@ -46,7 +46,10 @@ header {
 }
 
 .panel {
+    display: flex;
+    flex-direction: column;
     padding: 2.6667rem;
+    justify-content: space-between;
 }
 
 .panel:first-child {
@@ -85,7 +88,6 @@ header {
     border-radius: 30px;
     width: 60%;
     cursor: pointer;
-    margin-top: 4em;
     border: solid var(--neutral-very-light-gray) 3px;
 }
 
@@ -144,5 +146,9 @@ header {
     
     .panel:last-child {
         border-radius: 0 0 10px 10px;
+    }
+
+    .panel {
+        justify-content: center;
     }
 }
