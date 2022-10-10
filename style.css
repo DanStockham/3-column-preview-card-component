@@ -42,7 +42,6 @@ header {
     grid-area: panel-container;
     grid-template-areas: 
     "sedan suv luxury";
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .panel {
@@ -120,7 +119,6 @@ header {
 
 @media(max-width: 1440px) {
     .page-container {
-        /* min-height: 100%; */
         display: grid;
         grid-template-areas:
         " . header ." 
